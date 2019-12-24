@@ -1,0 +1,441 @@
+<REAPER_PROJECT 0.1 "6.01/x64" 1577207206
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 0
+  ZOOM 66.35019390265644 0 0
+  VZOOMEX 6
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 1
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 0 15.9973436483104
+  SELECTION2 0 15.9973436483104
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 24
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 1
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 0 =START 0 0 1 R
+  MARKER 2 16 =END 0 0 1 R
+  <PROJBAY
+  >
+  <TRACK {9A681FDC-0AE9-4F37-BEED-5F1489C23D0C}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {9A681FDC-0AE9-4F37-BEED-5F1489C23D0C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 747 466 910 534
+      SHOW 0
+      LASTSEL 4
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd5MqiE7gOPKOhfZTj43iYE+AAAAAM5NAD+t15A8AAAAAAAAAD9OqLQ9AACAPwAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {3D23E153-1511-4DE3-AE29-378980220850}
+      WAK 0 0
+      BYPASS 1 0 0
+      <VST "VST: ReaEQ (Cockos)" reaeq.dll 0 "" 1919247729<56535472656571726561657100000000> ""
+        cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAqAAAAAEAAAAAABAA
+        IQAAAAQAAAAAAAAAAQAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAHbG9kDV6JJAQuGVKy5U
+        3j8AAAAAAAAAQAEDAAAAAQAAAAiALDTeKcxAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAL4CAACyAQAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {A5E09E2E-F54A-4C5F-BF74-80F762685E77}
+      WAK 0 0
+      BYPASS 1 0 0
+      <JS pitch/superpitch ""
+        0.000000 0.000000 0.000000 50.000000 20.000000 0.000000 -120.000000 1.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {F2311C72-5181-41F8-B21F-963914805D38}
+      WAK 0 0
+      BYPASS 1 0 0
+      <JS sstillwell/chorus_stereo ""
+        172.000000 2.000000 0.500000 0.700000 -6.000000 -6.000000 0.000000 0.250000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {E74FE9EC-B089-4773-A7DE-05607D1270E0}
+      WAK 0 0
+      BYPASS 0 0 0
+      <VST "VST: ReaComp (Cockos)" reacomp.dll 0 "" 1919247213<5653547265636D726561636F6D700000> ""
+        bWNlcu9e7f4EAAAAAQAAAAAAAAACAAAAAAAAAAQAAAAAAAAACAAAAAAAAAACAAAAAQAAAAAAAAACAAAAAAAAAFQAAAAAAAAAAAAQAA==
+        776t3g3wrd62hpM9ogDjPE0nDz4K16M8Kj6GPAAAAAAAAIA/AAAAAAAAAAAAAAAAnNEHMwAAgD8AAAAAzcxMPY/C9T4AAIA/AACAPwAAgD4AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {CA928F5F-03A0-4E22-A06A-38B25D7385BB}
+      WAK 0 0
+      BYPASS 0 0 0
+      <JS sstillwell/flangebaby ""
+        5.000000 0.200000 0.000000 0.000000 0.500000 0.000000 0.250000 0.000000 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+      >
+      FLOATPOS 0 0 0 0
+      FXID {1A5C81B9-71A4-4C50-9D7E-32EE1AC27185}
+      WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 15.9973436483104
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4C621362-B91C-40AF-95BB-6D4A753305D9}
+      IID 2
+      NAME "untitled MIDI item"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6CEF1F31-1CB5-4B36-8805-DD89D4B758CC}
+      <SOURCE MIDI
+        HASDATA 1 960 QN
+        CCINTERP 32
+        POOLEDEVTS {0410D503-4A20-4D57-9384-96C9DA801ECC}
+        E 0 90 2d 55
+        E 480 80 2d 00
+        E 240 90 2d 55
+        E 240 80 2d 00
+        E 0 90 30 55
+        E 240 80 30 00
+        E 240 90 32 55
+        E 240 80 32 00
+        E 240 90 34 55
+        E 480 80 34 00
+        E 0 90 37 55
+        E 240 80 37 00
+        E 240 90 34 55
+        E 240 80 34 00
+        E 0 90 32 55
+        E 240 80 32 00
+        E 0 90 30 55
+        E 240 80 30 00
+        E 240 90 2d 55
+        E 480 80 2d 00
+        E 240 90 2d 55
+        E 240 80 2d 00
+        E 0 90 2b 55
+        E 240 80 2b 00
+        E 0 90 2c 55
+        E 240 80 2c 00
+        E 0 90 2d 55
+        E 240 80 2d 00
+        E 480 90 2d 55
+        E 240 80 2d 00
+        E 240 90 2d 55
+        E 240 80 2d 00
+        e 0 90 30 55
+        e 240 80 30 00
+        E 240 90 2d 55
+        E 240 80 2d 00
+        E 240 90 2d 55
+        E 480 80 2d 00
+        E 240 90 2d 55
+        E 240 80 2d 00
+        E 0 90 30 55
+        E 240 80 30 00
+        E 240 90 32 55
+        E 240 80 32 00
+        E 240 90 34 55
+        E 480 80 34 00
+        E 0 90 37 55
+        E 240 80 37 00
+        E 240 90 34 55
+        E 240 80 34 00
+        E 0 90 32 55
+        E 240 80 32 00
+        E 0 90 30 55
+        E 240 80 30 00
+        E 240 90 2d 55
+        E 480 80 2d 00
+        E 240 90 2d 55
+        E 480 80 2d 00
+        E 240 90 2b 55
+        E 480 80 2b 00
+        E 240 90 2c 55
+        E 480 80 2c 00
+        E 240 90 2d 55
+        E 480 80 2d 00
+        E 480 90 34 55
+        E 480 80 34 00
+        E 480 90 32 55
+        E 480 80 32 00
+        E 240 90 32 55
+        E 480 80 32 00
+        E 240 90 30 55
+        E 480 80 30 00
+        E 0 90 2f 55
+        E 240 80 2f 00
+        E 0 90 2e 55
+        E 240 80 2e 00
+        E 0 90 2d 55
+        E 480 80 2d 00
+        E 0 90 34 55
+        E 480 80 34 00
+        E 0 90 34 55
+        E 480 80 34 00
+        E 0 90 37 55
+        E 480 80 37 00
+        E 0 90 33 55
+        E 240 80 33 00
+        E 0 90 34 55
+        E 240 80 34 00
+        E 0 90 32 55
+        E 480 80 32 00
+        E 0 90 34 55
+        E 480 80 34 00
+        E 0 90 32 55
+        E 240 80 32 00
+        E 0 90 31 55
+        E 240 80 31 00
+        E 0 90 30 55
+        E 480 80 30 00
+        E 0 90 2d 55
+        E 480 80 2d 00
+        E 240 90 2d 55
+        E 240 80 2d 00
+        E 0 90 30 55
+        E 240 80 30 00
+        E 240 90 32 55
+        E 240 80 32 00
+        E 240 90 34 55
+        E 480 80 34 00
+        E 0 90 37 55
+        E 240 80 37 00
+        E 240 90 34 55
+        E 240 80 34 00
+        E 0 90 32 55
+        E 240 80 32 00
+        E 0 90 30 55
+        E 240 80 30 00
+        E 240 90 2d 55
+        E 480 80 2d 00
+        E 240 90 2d 55
+        E 240 80 2d 00
+        E 0 90 2b 55
+        E 240 80 2b 00
+        E 240 90 2d 55
+        E 960 80 2d 00
+        E 1440 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {E76D7155-6A79-479E-8C13-5E8AFFC0A94A}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 132
+        VELLANE 64 100 0
+        VELLANE -1 100 0
+        CFGEDITVIEW 0 0.031075 64 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 269
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 0 0 0 1 1 1 1 1 0.25 613 538 2263 1417 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {94CBD8CC-AC4C-43C7-94EA-F5D40C368442}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {94CBD8CC-AC4C-43C7-94EA-F5D40C368442}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 4
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {0BCB3B40-EECB-40CC-909A-0AC0E1C3851A}
+      IID 37
+      NAME "Acoustic Kit 19-glued.wav"
+      VOLPAN 0.630957 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.1764795918454 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0A2D1A44-D0F6-4C34-B864-61F01113E862}
+      <SOURCE WAVE
+        FILE "Media\Acoustic Kit 19-glued.wav"
+      >
+    >
+    <ITEM
+      POSITION 4
+      SNAPOFFS 0
+      LENGTH 4
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {486E6D2C-B3F6-4A38-8020-D05608E6F704}
+      IID 38
+      NAME "Acoustic Kit 19-glued.wav"
+      VOLPAN 0.630957 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.1764795918454 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {56EDE80E-4BD7-46F4-85DA-3BC6A8B34815}
+      <SOURCE WAVE
+        FILE "Media\Acoustic Kit 19-glued.wav"
+      >
+    >
+    <ITEM
+      POSITION 8
+      SNAPOFFS 0
+      LENGTH 4
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {18239E0A-11E1-445C-A483-B295AAA012B3}
+      IID 39
+      NAME "Acoustic Kit 19-glued.wav"
+      VOLPAN 0.630957 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.1764795918454 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9BD35B9B-EDEA-4D5C-8101-BE3BFD440ED0}
+      <SOURCE WAVE
+        FILE "Media\Acoustic Kit 19-glued.wav"
+      >
+    >
+    <ITEM
+      POSITION 12
+      SNAPOFFS 0
+      LENGTH 4
+      LOOP 0
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {BB5B209E-839E-4F9D-A95B-85CD358BAA58}
+      IID 40
+      NAME "Acoustic Kit 19-glued.wav"
+      VOLPAN 0.630957 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.1764795918454 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1F88E4B5-91D8-4AD8-838D-0E44A8B6FE74}
+      <SOURCE WAVE
+        FILE "Media\Acoustic Kit 19-glued.wav"
+      >
+    >
+  >
+  <EXTENSIONS
+  >
+>
